@@ -1,6 +1,6 @@
 # x
 
-Chaos Script w/ fling:
+Chaos Script:
 ```loadstring(game:HttpGet('https://raw.githubusercontent.com/InvestorDoge/x/main/chaos.lua'))()```
 
 Fling Script:
