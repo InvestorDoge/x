@@ -136,7 +136,7 @@ end);
 --<>----<>----<>----<>----<>----<>----<>--
 
 --<>----<>----<>----<>----<>----<>----<>--
-local Window = Library:CreateWindow({Title = "Murder Mystery 2"});
+local Window = Library:CreateWindow({Title = "Nigger Hub"});
 local Tab1 = Window:CreateTab({Title = "Main", ScrollBar = false});
 local Tab2 = Window:CreateTab({Title = "Slavery", ScrollBar = false});
 local Tab3 = Window:CreateTab({Title = "Roles", ScrollBar = false});
