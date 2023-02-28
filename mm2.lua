@@ -138,21 +138,21 @@ end);
 --<>----<>----<>----<>----<>----<>----<>--
 local Window = Library:CreateWindow({Title = "Murder Mystery 2"});
 local Tab1 = Window:CreateTab({Title = "Main", ScrollBar = false});
-local Tab2 = Window:CreateTab({Title = "Economy", ScrollBar = false});
+local Tab2 = Window:CreateTab({Title = "Slavery", ScrollBar = false});
 local Tab3 = Window:CreateTab({Title = "Roles", ScrollBar = false});
 
 --<>----<>----<>----<>----<>----<>----<>--
 local ClientSection = Tab1:CreateSection({
-	Title = "Client"
+	Title = "Troll"
 });
 --<>----<>----<>----<>----<>----<>----<>--
 local WorldSection = Tab1:CreateSection({
-	Title = "World"
+	Title = "Visual"
 });
 --<>----<>----<>----<>----<>----<>----<>--
 --<>----<>----<>----<>----<>----<>----<>--
 local AutofarmSection = Tab2:CreateSection({
-	Title = "Autofarm"
+	Title = "Auto Slavery"
 });
 --<>----<>----<>----<>----<>----<>----<>--
 --<>----<>----<>----<>----<>----<>----<>--
@@ -182,9 +182,9 @@ end)
 --<>----<>----<>----<>----<>----<>----<>--
 
 ClientSection:CreateSlider({
-	Title = "WalkSpeed",
+	Title = "Work Speed",
 	Min = 16,
-	Max = 1000,
+	Max = 250,
 	Default = 16,
 	Callback = function(val)
 		getgenv().WS = tonumber(val)--tonumber(val / 10) or 0;
@@ -193,9 +193,9 @@ ClientSection:CreateSlider({
 });
 --<>----<>----<>----<>----<>----<>----<>--
 ClientSection:CreateSlider({
-	Title = "JumpPower",
+	Title = "Work Power",
 	Min = 50,
-	Max = 1000,
+	Max = 250,
 	Default = 50,
 	Callback = function(val)
 		getgenv().JP = tonumber(val)--tonumber(val / 10) or 0;
@@ -297,7 +297,7 @@ ClientSection:CreateToggle({
 ClientSection:CreateSlider({
 	Title = "Fly speed",
 	Min = 20,
-	Max = 1000,
+	Max = 250,
 	Default = 50,
 	Callback = function(val)
         getgenv().FlySpeed = tonumber(val) or 50;
@@ -305,7 +305,7 @@ ClientSection:CreateSlider({
 });
 --<>----<>----<>----<>----<>----<>----<>--
 ClientSection:CreateButton({
-    Title = "Btools",
+    Title = "Nigger Tools",
     Callback = function()
         if not Client.Backpack:FindFirstChildOfClass("HopperBun") then
             local tool1 = Instance.new("HopperBin",Client.Backpack);
