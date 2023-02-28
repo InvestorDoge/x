@@ -348,7 +348,7 @@ end
 
 
 ClientSection:CreateButton({
-    Title = "Nigger",
+    Title = "Nigger Mode",
     Callback = function()
         GodMode()
     end
